@@ -4,11 +4,11 @@ import { Card, CardContent, Typography, Rating } from '@mui/material';
 const RestaurantList = ({ restaurants, onRestaurantClick }) => {
   return (
     <Card variant="outlined" sx={{ backgroundColor: "#fc8200c7" , textAlign: "center", padding: "20px"}}>
-        <Typography sx={{ padding: "20px"}} variant="h4">Restoran Lisesi</Typography>
+        <Typography sx={{ padding: "20px", fontWeight: "bold"}} variant="h4">Restoran Listesi</Typography>
     <div  className='resturant-item-renderer'>
       {restaurants.map((restaurant) => (
         <div className='single-resturant-item'>
-        <Card key={restaurant.id} onClick={() => onRestaurantClick(restaurant)} sx={{ margin: '10px', cursor: 'pointer' , backgroundColor: "#d18a07", maxWidth: "300px", textAlign:'center' , padding: "20px" , boxShadow: "1px 1px 5px" , borderRadius: "20px"}}>
+        <Card key={restaurant.id} onClick={() => onRestaurantClick(restaurant)} sx={{ margin: '10px',minHeight: "130px", cursor: 'pointer' , backgroundColor: "#d18a07", maxWidth: "500px", textAlign:'center' , padding: "20px" , boxShadow: "1px 1px 5px" , borderRadius: "20px"}}>
           <CardContent>
             <Typography sx={{fontWeight: "bold"}}variant="h5">
               {restaurant.name} Restoranı
