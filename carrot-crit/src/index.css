@@ -1,27 +1,27 @@
-body{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: rgb(255, 145, 0);
   color: rgba(0, 0, 0);
   margin: 0;
 }
 
-.resturant-item-renderer{
+.resturant-item-renderer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.single-resturant-item{
+.single-resturant-item {
   padding: 20px;
   transition: all 0.5s ease;
 }
 
-.single-resturant-item:hover{
-  scale:1.05
+.single-resturant-item:hover {
+  scale: 1.05;
 }
 
-.new-resturant-form-container{
+.new-resturant-form-container {
   margin: 80px 25vw;
 }
 
@@ -29,17 +29,17 @@ body{
   text-align: center;
   background-color: #333;
   color: #fff;
-  margin-top: 100px; 
+  margin-top: 100px;
   padding: 40px 0;
 }
 
 .footer p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   margin: 0;
 }
 
-.rabbit-photo{
+.rabbit-photo {
   width: 300px;
   height: auto;
   border-radius: 50%;
