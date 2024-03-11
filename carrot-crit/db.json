@@ -4,15 +4,66 @@
       "id": "b92f",
       "name": "The LunchBox",
       "ratings": [
+        3
       ]
     },
     {
       "id": "232f",
       "name": "McDonalds",
       "ratings": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "02c0",
+      "name": "Gölet Burger King",
+      "ratings": [
+        5
+      ]
+    },
+    {
+      "id": "b4cb",
+      "name": "Kağıthane Popeyes",
+      "ratings": [
         1
       ]
+    },
+    {
+      "id": "f134",
+      "name": "Köşebaşı Levent",
+      "ratings": [
+        5
+      ]
+    },
+    {
+      "id": "3fb5",
+      "name": "Köşebaşı Beylikdüzü",
+      "ratings": [
+        4
+      ]
+    },
+    {
+      "id": "1867",
+      "name": "Gölet Mcdonalds",
+      "ratings": [
+        3
+      ]
+    },
+    {
+      "id": "5855",
+      "name": "Bahçeşehir Divan Pastanesi",
+      "ratings": [
+        2
+      ]
+    },
+    {
+      "id": "0356",
+      "name": "Koç Koru Divan Lotus",
+      "ratings": [
+        4
+      ]
     }
-    
   ]
 }
