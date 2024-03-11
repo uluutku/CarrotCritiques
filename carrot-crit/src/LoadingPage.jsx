@@ -29,7 +29,7 @@ const LoadingPage = () => {
     <Container maxWidth="sm" style={classes.root}>
     <Typography sx={{color:"white" ,marginBottom:"50px" , fontSize:"4rem"}} variant="h3">🥕 Carrot Critiques</Typography>
     <br></br>
-      <img className="rabbit-photo" src={rabbitImage} alt="Rabbit" /> {/* Added alt attribute for accessibility */}
+      <img className="rabbit-photo" src={rabbitImage} alt="Rabbit" />
       <LinearProgress style={classes.progress} />
     </Container>
     
